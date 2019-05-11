@@ -1,0 +1,17 @@
+@import 'mixins/arrow-mixins';
+
+.topArrow{
+    @include arrow( #000000 , 50px , top );
+}
+
+.leftArrow{
+    @include arrow( #000000 , 50px , left );
+}
+
+.rightArrow{
+    @include arrow( #000000 , 50px , right );
+}
+
+.downArrow{
+    @include arrow( #000000 , 50px , down );
+}
